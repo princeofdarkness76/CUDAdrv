@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C4B4B61B8219F80071B07F /* CUDAdrv.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48C4B4B51B8219F80071B07F /* CUDAdrv.h */; };
+		48C4B4B81B8219F80071B07F /* CUDAdrv.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4B4B71B8219F80071B07F /* CUDAdrv.m */; };
+		48C4B4BE1B8219F80071B07F /* libCUDAdrv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4B4B21B8219F80071B07F /* libCUDAdrv.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C4B4BF1B8219F80071B07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C4B4AA1B8219F70071B07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C4B4B11B8219F70071B07F;
+			remoteInfo = CUDAdrv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48C4B4B01B8219F70071B07F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				48C4B4B61B8219F80071B07F /* CUDAdrv.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48C4B4B21B8219F80071B07F /* libCUDAdrv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCUDAdrv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C4B4B51B8219F80071B07F /* CUDAdrv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUDAdrv.h; sourceTree = "<group>"; };
+		48C4B4B71B8219F80071B07F /* CUDAdrv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUDAdrv.m; sourceTree = "<group>"; };
+		48C4B4BD1B8219F80071B07F /* CUDAdrvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUDAdrvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C4B4C31B8219F80071B07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C4B4AF1B8219F70071B07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C4B4BA1B8219F80071B07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4B4BE1B8219F80071B07F /* libCUDAdrv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C4B4A91B8219F70071B07F = {
+			isa = PBXGroup;
+			children = (
+				48C4B4B41B8219F80071B07F /* CUDAdrv */,
+				48C4B4C11B8219F80071B07F /* CUDAdrvTests */,
+				48C4B4B31B8219F80071B07F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C4B4B31B8219F80071B07F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C4B4B21B8219F80071B07F /* libCUDAdrv.a */,
+				48C4B4BD1B8219F80071B07F /* CUDAdrvTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C4B4B41B8219F80071B07F /* CUDAdrv */ = {
+			isa = PBXGroup;
+			children = (
+				48C4B4B51B8219F80071B07F /* CUDAdrv.h */,
+				48C4B4B71B8219F80071B07F /* CUDAdrv.m */,
+			);
+			path = CUDAdrv;
+			sourceTree = "<group>";
+		};
+		48C4B4C11B8219F80071B07F /* CUDAdrvTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C4B4C21B8219F80071B07F /* Supporting Files */,
+			);
+			path = CUDAdrvTests;
+			sourceTree = "<group>";
+		};
+		48C4B4C21B8219F80071B07F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C4B4C31B8219F80071B07F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C4B4B11B8219F70071B07F /* CUDAdrv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C4B4C61B8219F80071B07F /* Build configuration list for PBXNativeTarget "CUDAdrv" */;
+			buildPhases = (
+				48C4B4AE1B8219F70071B07F /* Sources */,
+				48C4B4AF1B8219F70071B07F /* Frameworks */,
+				48C4B4B01B8219F70071B07F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUDAdrv;
+			productName = CUDAdrv;
+			productReference = 48C4B4B21B8219F80071B07F /* libCUDAdrv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48C4B4BC1B8219F80071B07F /* CUDAdrvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C4B4C91B8219F80071B07F /* Build configuration list for PBXNativeTarget "CUDAdrvTests" */;
+			buildPhases = (
+				48C4B4B91B8219F80071B07F /* Sources */,
+				48C4B4BA1B8219F80071B07F /* Frameworks */,
+				48C4B4BB1B8219F80071B07F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C4B4C01B8219F80071B07F /* PBXTargetDependency */,
+			);
+			name = CUDAdrvTests;
+			productName = CUDAdrvTests;
+			productReference = 48C4B4BD1B8219F80071B07F /* CUDAdrvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C4B4AA1B8219F70071B07F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "SJ Technical";
+				TargetAttributes = {
+					48C4B4B11B8219F70071B07F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					48C4B4BC1B8219F80071B07F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 48C4B4AD1B8219F70071B07F /* Build configuration list for PBXProject "CUDAdrv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48C4B4A91B8219F70071B07F;
+			productRefGroup = 48C4B4B31B8219F80071B07F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C4B4B11B8219F70071B07F /* CUDAdrv */,
+				48C4B4BC1B8219F80071B07F /* CUDAdrvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C4B4BB1B8219F80071B07F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C4B4AE1B8219F70071B07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4B4B81B8219F80071B07F /* CUDAdrv.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C4B4B91B8219F80071B07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C4B4C01B8219F80071B07F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C4B4B11B8219F70071B07F /* CUDAdrv */;
+			targetProxy = 48C4B4BF1B8219F80071B07F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48C4B4C41B8219F80071B07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48C4B4C51B8219F80071B07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C4B4C71B8219F80071B07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48C4B4C81B8219F80071B07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48C4B4CA1B8219F80071B07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CUDAdrvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48C4B4CB1B8219F80071B07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CUDAdrvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C4B4AD1B8219F70071B07F /* Build configuration list for PBXProject "CUDAdrv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C4B4C41B8219F80071B07F /* Debug */,
+				48C4B4C51B8219F80071B07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C4B4C61B8219F80071B07F /* Build configuration list for PBXNativeTarget "CUDAdrv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C4B4C71B8219F80071B07F /* Debug */,
+				48C4B4C81B8219F80071B07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C4B4C91B8219F80071B07F /* Build configuration list for PBXNativeTarget "CUDAdrvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C4B4CA1B8219F80071B07F /* Debug */,
+				48C4B4CB1B8219F80071B07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C4B4AA1B8219F70071B07F /* Project object */;
+}
