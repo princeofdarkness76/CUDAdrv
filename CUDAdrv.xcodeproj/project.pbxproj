@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		48C4B4B61B8219F80071B07F /* CUDAdrv.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48C4B4B51B8219F80071B07F /* CUDAdrv.h */; };
 		48C4B4B81B8219F80071B07F /* CUDAdrv.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4B4B71B8219F80071B07F /* CUDAdrv.m */; };
-		48C4B4BE1B8219F80071B07F /* libCUDAdrv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4B4B21B8219F80071B07F /* libCUDAdrv.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C4B4BE1B8219F80071B07F /* libCUDAdrv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
